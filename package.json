@@ -1,6 +1,6 @@
 {
     "name": "@ishinao/ampless-plugin-site-verification",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Search engine site verification meta tags for ampless (Google / Bing / Pinterest / Yandex / Baidu).",
     "license": "MIT",
     "type": "module",
@@ -44,7 +44,13 @@
         "apiVersion": 1,
         "name": "site-verification",
         "trustLevel": "untrusted",
-        "capabilities": ["publicHead", "adminSettings"],
-        "displayName": { "en": "Site verification", "ja": "サイト所有権確認" }
+        "capabilities": [
+            "publicHead",
+            "adminSettings"
+        ],
+        "displayName": {
+            "en": "Site verification",
+            "ja": "サイト所有権確認"
+        }
     }
 }
