@@ -35,6 +35,7 @@ export default function siteVerificationPlugin(
 
     return definePlugin({
         name: 'site-verification',
+        packageName: '@ishinao/ampless-plugin-site-verification',
         instanceId,
         apiVersion: 1,
         trust_level: 'untrusted',

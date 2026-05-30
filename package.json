@@ -8,7 +8,8 @@
         ".": {
             "import": "./dist/index.js",
             "types": "./dist/index.d.ts"
-        }
+        },
+        "./package.json": "./package.json"
     },
     "files": [
         "dist",
@@ -24,7 +25,7 @@
         "test": "vitest run --passWithNoTests"
     },
     "dependencies": {
-        "ampless": "^1.0.0-alpha.21"
+        "ampless": "^1.0.0-alpha.22"
     },
     "devDependencies": {
         "tsup": "^8.5.1",
@@ -38,5 +39,12 @@
         "seo",
         "site-verification",
         "google-search-console"
-    ]
+    ],
+    "amplessPlugin": {
+        "apiVersion": 1,
+        "name": "site-verification",
+        "trustLevel": "untrusted",
+        "capabilities": ["publicHead", "adminSettings"],
+        "displayName": { "en": "Site verification", "ja": "サイト所有権確認" }
+    }
 }
