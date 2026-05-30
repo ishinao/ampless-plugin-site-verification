@@ -1,0 +1,42 @@
+{
+    "name": "@ishinao/ampless-plugin-site-verification",
+    "version": "0.1.0",
+    "description": "Search engine site verification meta tags for ampless (Google / Bing / Pinterest / Yandex / Baidu).",
+    "license": "MIT",
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "lint": "tsc --noEmit",
+        "test": "vitest run --passWithNoTests"
+    },
+    "dependencies": {
+        "ampless": "^1.0.0-alpha.21"
+    },
+    "devDependencies": {
+        "tsup": "^8.5.1",
+        "typescript": "^5.7.0",
+        "vitest": "^4.1.7"
+    },
+    "keywords": [
+        "ampless",
+        "plugin",
+        "ampless-plugin",
+        "seo",
+        "site-verification",
+        "google-search-console"
+    ]
+}
