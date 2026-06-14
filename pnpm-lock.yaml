@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       ampless:
-        specifier: ^1.0.0-alpha.22
-        version: 1.0.0-alpha.22
+        specifier: ^1.0.0-beta.52
+        version: 1.0.0-beta.52
     devDependencies:
       tsup:
         specifier: ^8.5.1
@@ -502,8 +502,13 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  ampless@1.0.0-alpha.22:
-    resolution: {integrity: sha512-pRNY8oKjX+tK+hTJ5CbdwRwPfzFO0gIiTvSVEdiPBPQcPtC70xvUPMwnPNj666F9mO/K1/gRl7vxCE8JA1zOfg==}
+  ampless@1.0.0-beta.52:
+    resolution: {integrity: sha512-N4qNw8fR3l1W8PbbdvKfVHCqP65N30NXaeELOozV5WhB+fghqnE65SXE7tWgwxvA13tfmSa6E6HUSXxN071BBg==}
+    peerDependencies:
+      '@types/react': ^19
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
 
   any-promise@1.3.0:
     resolution: {integrity: sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A==}
@@ -1245,7 +1250,7 @@ snapshots:
 
   acorn@8.16.0: {}
 
-  ampless@1.0.0-alpha.22:
+  ampless@1.0.0-beta.52:
     dependencies:
       '@jsquash/webp': 1.5.0
 
