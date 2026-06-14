@@ -1,6 +1,6 @@
 {
     "name": "@ishinao/ampless-plugin-site-verification",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Search engine site verification meta tags for ampless (Google / Bing / Pinterest / Yandex / Baidu).",
     "license": "MIT",
     "type": "module",
